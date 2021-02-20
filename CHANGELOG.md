@@ -2,42 +2,35 @@
 
 All notable changes to the "bootstrap5-snippets" extension will be documented in this file.
 
-Check [Keep a Changelog](https://github.com/adereksisusanto/bootstrap5-snippets/releases/tag/0.0.1) for recommendations on how to structure this file.
+Check [Keep a Changelog](https://github.com/adereksisusanto/bootstrap5-snippets/releases/tag/0.0.2) for recommendations on how to structure this file.
 
 ## [Released 0.0.1]
 
-- Initial release
+- Add Form Login
 
-### Starter template
+### Form Login
 
-**Command :**
+**Command **
 
-> b5-!
+> b5-form-login
 
-**Output :**
+**Output **
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
-    <title>Bootstrap 5!</title>
-  </head>
-  <body>
-    <h1>Bootstrap 5!</h1>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+<form>
+    <div class="mb-3">
+        <label for="email_input" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email_input" name="email_input" placeholder="Enter Email..." aria-describedby="email_input_Help">
+        <div id="email_input_Help" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+        <label for="password_input" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password_input" name="password_input" placeholder="Enter Password...">
+    </div>
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="remmember_me" name="remmember_me">
+        <label class="form-check-label" for="remmember_me">Remmember me</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 ```

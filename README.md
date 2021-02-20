@@ -52,6 +52,10 @@ ext install adereksisusanto.bootstrap5-snippets
 </html>
 ```
 
+- [Forms](https://github.com/adereksisusanto/bootstrap5-snippets/docs/bootstrap5/Forms.md)
+  <!-- - [Overview](https://github.com/adereksisusanto/bootstrap5-snippets/docs/bootstrap5/Forms/Overview.md)
+  - [Form control](https://github.com/adereksisusanto/bootstrap5-snippets/docs/bootstrap5/Forms/Form-control.md) -->
+
 ## License & Download
 
 [![GitHub license](https://img.shields.io/github/license/adereksisusanto/bootstrap5-snippets.svg)](https://github.com/adereksisusanto/bootstrap5-snippets) ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/adereksisusanto.bootstrap5-snippets)
