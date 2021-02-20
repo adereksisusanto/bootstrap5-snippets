@@ -18,5 +18,28 @@
       "</html>"
     ],
     "description": "Bootstrap 5 - Starter template"
+  },
+  "Bootstrap5_form_login": {
+    "prefix": "b5-form-login",
+    "body": [
+      "<form>",
+      "\t<div class=\"mb-3\">",
+      "\t\t<label for=\"${1:email_input}\" class=\"form-label\">${2:Email}</label>",
+      "\t\t<input type=\"email\" class=\"form-control\" id=\"${1:email_input}\" name=\"${1:email_input}\" placeholder=\"${3:Enter Email...}\" aria-describedby=\"${1:email_input}_Help\">",
+      "\t\t<div id=\"${1:email_input}_Help\" class=\"form-text\">${4:We'll never share your email with anyone else.}</div>",
+      "\t</div>",
+      "\t<div class=\"mb-3\">",
+      "\t\t<label for=\"${5:password_input}\" class=\"form-label\">${6:Password}</label>",
+      "\t\t<input type=\"password\" class=\"form-control\" id=\"${5:password_input}\" name=\"${5:password_input}\" placeholder=\"${7:Enter Password...}\">",
+      "\t</div>",
+      "\t<div class=\"mb-3 form-check\">",
+      "\t\t<input type=\"checkbox\" class=\"form-check-input\" id=\"${8:remmember_me}\" name=\"${8:remmember_me}\">",
+      "\t\t<label class=\"form-check-label\" for=\"${8:remmember_me}\">${9:Remmember me}</label>",
+      "\t</div>",
+      "\t<button type=\"submit\" class=\"btn btn-primary\">Submit</button>",
+      "</form>",
+      "$0"
+    ],
+    "description": "Bootstrap 5 - Form Login"
   }
 }
