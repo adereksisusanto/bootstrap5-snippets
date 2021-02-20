@@ -4,7 +4,7 @@ All notable changes to the "bootstrap5-snippets" extension will be documented in
 
 Check [Keep a Changelog](https://github.com/adereksisusanto/bootstrap5-snippets/releases/tag/0.0.2) for recommendations on how to structure this file.
 
-## [Released 0.0.1]
+## [Released 0.0.2]
 
 - Add Form Login
 
