@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap5-snippets",
+  "displayName": "bootstrap5 snippets",
+  "description": "Bootstrap 5 Snippet for Visual Studio Code",
+  "icon": "bootstrap-5.jpg",
+  "publisher": "adereksisusanto",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.53.0"
+  },
+  "keywords": [
+    "Bootstrap 5",
+    "snippets",
+    "html"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/bootstrap-5.json"
+      }
+    ]
+  }
+}
