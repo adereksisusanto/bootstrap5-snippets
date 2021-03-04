@@ -2,6 +2,14 @@
 
 This Extensions provides the Bootstrap 5 snippets
 
+## Version
+
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/adereksisusanto.bootstrap5-snippets?style=for-the-badge)
+
+## Documentation
+
+- [Read Documentation](https://adereksisusanto.github.io/bootstrap5/getting-started/introduction.html)
+
 ## Requirements
 
 ```markdown
@@ -52,12 +60,8 @@ ext install adereksisusanto.bootstrap5-snippets
 </html>
 ```
 
-- [Forms](https://github.com/adereksisusanto/bootstrap5-snippets/docs/bootstrap5/Forms.md)
-  <!-- - [Overview](https://github.com/adereksisusanto/bootstrap5-snippets/docs/bootstrap5/Forms/Overview.md)
-  - [Form control](https://github.com/adereksisusanto/bootstrap5-snippets/docs/bootstrap5/Forms/Form-control.md) -->
-
 ## License & Download
 
-[![GitHub license](https://img.shields.io/github/license/adereksisusanto/bootstrap5-snippets.svg)](https://github.com/adereksisusanto/bootstrap5-snippets) ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/adereksisusanto.bootstrap5-snippets)
+[![GitHub license](https://img.shields.io/github/license/adereksisusanto/bootstrap5-snippets.svg?style=for-the-badge)](https://github.com/adereksisusanto/bootstrap5-snippets) ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/adereksisusanto.bootstrap5-snippets?style=for-the-badge)
 
 **Enjoy!**

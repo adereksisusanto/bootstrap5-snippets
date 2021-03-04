@@ -1,4 +1,4 @@
 *.html
 
-bootstrap5-snippets-0.0.1.vsix
-bootstrap5-snippets-0.0.2.vsix
+*.vsix
+vsc-extension-quickstart.md
