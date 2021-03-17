@@ -158,7 +158,7 @@ const files = {
       path.src.plugins + "**/*.*",
       path.src.fonts + "**/*.*",
       path.src.images + "**/*.*",
-      path.dir.src + "[^_]**/*.html",
+      path.dir.src + "**/*.html",
     ],
   },
 };
