@@ -86,7 +86,7 @@ const bannerHTML = [
 const dir = {
   src: "src/",
   assets: "assets/",
-  build: "docs/",
+  build: "./",
 };
 
 const path = {
@@ -351,11 +351,15 @@ gulp.task("njk-html", () => {
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Clean build directory and alias
-gulp.task("build-clean", () => {
-  return del(path.dir.build);
+// Clean build directory assets
+gulp.task("build-clean-assets", () => {
+  return del(path.dir.build + "assets/");
 });
-gulp.task("clean", gulp.series("build-clean"));
+// Clean build html
+gulp.task("build-clean-html", () => {
+  return del(path.dir.build + "*.html");
+});
+gulp.task("clean", gulp.series("build-clean-assets", "build-clean-html"));
 
 // Copy folders and files to build folder
 gulp.task("build-copy", () => {
@@ -391,7 +395,7 @@ gulp.task("html-dev", gulp.series(gulp.parallel("njk-html-dev")));
 gulp.task("html", gulp.series(gulp.parallel("njk-html")));
 
 // Build task
-gulp.task("build", gulp.series("css", "js", "build-clean", "build-copy"));
+gulp.task("build", gulp.series("css", "js", "html", "clean", "build-copy"));
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
