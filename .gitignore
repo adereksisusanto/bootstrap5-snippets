@@ -1,4 +1,6 @@
-*.html
+node_modules/
+src/
 
 *.vsix
+package-lock.json
 vsc-extension-quickstart.md

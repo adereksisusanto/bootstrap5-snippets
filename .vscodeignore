@@ -1,4 +1,10 @@
 .vscode/**
 .vscode-test/**
+node_modules/**
+docs/**
+src/**
+
 .gitignore
+.babelrc
+.gulpfile.babel.js
 vsc-extension-quickstart.md

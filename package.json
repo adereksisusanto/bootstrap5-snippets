@@ -4,7 +4,9 @@
   "description": "Bootstrap 5 Snippet for Visual Studio Code",
   "icon": "bootstrap-5.jpg",
   "publisher": "adereksisusanto",
-  "version": "0.0.3",
+  "author": "Ade Reksi Susanto",
+  "homepage": "https://adereksisusanto.github.io/bootstrap5-snippets/",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.53.0"
   },
@@ -27,5 +29,39 @@
         "path": "./snippets/bootstrap-5.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/register": "^7.13.8",
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-header": "^2.0.9",
+    "gulp-npm-dist": "^1.0.3",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-uglify": "^3.0.2",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^5.26.2",
+    "webpack-stream": "^6.1.2"
+  },
+  "dependencies": {
+    "@adereksisusanto/icons": "^1.0.3",
+    "bootstrap": "^4.6.0",
+    "gulp-htmlmin": "^5.0.1",
+    "highlight.js": "^10.6.0",
+    "jquery": "^3.5.1",
+    "jquery.scrollto": "^2.1.3",
+    "popper.js": "^1.16.1"
   }
 }
