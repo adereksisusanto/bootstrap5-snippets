@@ -44,6 +44,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-connect-php": "^1.0.3",
     "gulp-header": "^2.0.9",
+    "gulp-htmlmin": "^5.0.1",
     "gulp-npm-dist": "^1.0.3",
     "gulp-nunjucks-render": "^2.2.3",
     "gulp-postcss": "^9.0.0",
@@ -58,7 +59,6 @@
   "dependencies": {
     "@adereksisusanto/icons": "^1.0.3",
     "bootstrap": "^4.6.0",
-    "gulp-htmlmin": "^5.0.1",
     "highlight.js": "^10.6.0",
     "jquery": "^3.5.1",
     "jquery.scrollto": "^2.1.3",
