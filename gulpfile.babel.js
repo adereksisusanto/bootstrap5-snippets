@@ -327,7 +327,6 @@ gulp.task("njk-html-dev", () => {
         path: path.src.templates,
       })
     )
-    .pipe(header(bannerHTML, { pkg: pkg }))
     .pipe(gulp.dest(path.dir.src));
 });
 
@@ -341,7 +340,6 @@ gulp.task("njk-html", () => {
       })
     )
     .pipe(htmlmin({ collapseWhitespace: true }))
-    .pipe(header(bannerHTML, { pkg: pkg }))
     .pipe(gulp.dest(path.dir.src));
 });
 
